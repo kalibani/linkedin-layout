@@ -1,0 +1,24 @@
+<template>
+  <div id="app">
+    <app-navbar></app-navbar>
+    <router-view/>
+  </div>
+</template>
+
+<script>
+import AppNavbar from '@/components/pages/AppNavbar'
+export default {
+  name: 'App',
+  components: {
+    AppNavbar
+  }
+}
+</script>
+
+<style>
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+</style>
