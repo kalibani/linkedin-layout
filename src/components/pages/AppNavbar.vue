@@ -152,7 +152,7 @@ export default {
   }
 
   .input-group{
-    padding-right: 5rem;
+    padding-right: 4rem;
   }
 
   .input-group .form-control {

@@ -1,15 +1,20 @@
 <template>
   <div class="hello">
+    <app-body></app-body>
   </div>
 </template>
 
 <script>
+import AppBody from './pages/AppBody'
 export default {
-  name: 'HelloWorld',
+  name: 'MainComponent',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  components: {
+    AppBody
   }
 }
 </script>
