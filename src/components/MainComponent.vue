@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="app">
     <app-body></app-body>
   </div>
 </template>
@@ -31,8 +31,5 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
-}
-a {
-  color: #42b983;
 }
 </style>
