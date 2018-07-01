@@ -5,6 +5,10 @@
 ## Build Setup
 
 ``` bash
+
+
+# clone first and then get in to repo, next running in your bash / cmd
+
 # install dependencies
 npm install
 

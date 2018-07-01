@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import MainComponent from '@/components/MainComponent'
+import AppProfile from '@/components/pages/AppProfile'
 
 Vue.use(Router)
 
@@ -11,6 +12,14 @@ const routes = [
     component: MainComponent,
     meta: {
       title: 'LinkedIn - Home'
+    }
+  },
+  {
+    path: '/profile',
+    name: 'AppProfile',
+    component: AppProfile,
+    meta: {
+      title: 'LinkedIn - Profile'
     }
   }
 ]

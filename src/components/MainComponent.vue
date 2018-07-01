@@ -8,11 +8,6 @@
 import AppBody from './pages/AppBody'
 export default {
   name: 'MainComponent',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
-  },
   components: {
     AppBody
   }
