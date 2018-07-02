@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="app">
     <app-body></app-body>
   </div>
 </template>
@@ -8,11 +8,6 @@
 import AppBody from './pages/AppBody'
 export default {
   name: 'MainComponent',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
-  },
   components: {
     AppBody
   }
@@ -31,8 +26,5 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
-}
-a {
-  color: #42b983;
 }
 </style>
